@@ -91,5 +91,5 @@ a {
 
 .showcase {
   height: calc(100vh - 110px);
-  background: url("../images/Slider\ Image.png");
+  overflow: hidden;
 }
