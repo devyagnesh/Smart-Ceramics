@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --primary: #732d53;
+  --black: #353535;
+  --white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+li,
+a {
+  text-decoration: none;
+  list-style: none;
+  color: var(--white);
+}
+
+.wrapper {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.contact-header {
+  background: var(--black);
+  height: 40px;
+}
+
+.contact-nav {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact-nav .email-container {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--white);
+}
+
+.contact-nav .email-container p,
+.contact-nav .email-container i {
+  font-weight: 200;
+  font-size: 0.7rem;
+}
+
+.socials-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.main-nav-header {
+  height: 70px;
+  box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.25);
+}
+
+.main-nav-header .main-nav {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-nav-header .main-nav #logo {
+  font-weight: 800;
+  font-size: 2.5rem;
+  color: var(--primary);
+}
+
+.main-nav-header .main-nav .nav-links {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.main-nav-header .main-nav .nav-links .nav-link a {
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: var(--black);
+}
+
+.showcase {
+  height: calc(100vh - 110px);
+  background: url("../images/Slider\ Image.png");
+}
